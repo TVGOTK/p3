@@ -25,6 +25,9 @@ function getUrlParam(name) {
         var mpd = getUrlParam('mpd');
         var keyId = getUrlParam('keyId');
         var key = getUrlParam('key');
+        var keys = getUrlParam('keys');
+  [keyId, key] = keys.split(':');
+  
         
         
 
